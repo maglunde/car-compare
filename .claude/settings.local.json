@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx create-vite@latest:*)",
+      "Bash(npx --yes create-vite@latest . -- --template react-ts)",
+      "Bash(npm --version)",
+      "Bash(npm install:*)",
+      "Bash(npm run:*)",
+      "Bash(npx tsx:*)",
+      "Bash(curl -s -X POST http://localhost:3001/api/cars/specs -H 'Content-Type: application/json' -d '{\"make\":\"Tesla\",\"model\":\"Model Y RWD\",\"year\":2024}')",
+      "Bash(python3 -m json.tool)",
+      "WebFetch(domain:ev-database.org)",
+      "WebSearch",
+      "WebFetch(domain:www.naf.no)",
+      "WebFetch(domain:elbilstatistikk.no)",
+      "WebFetch(domain:ofv.no)",
+      "WebFetch(domain:autosys-kjoretoy-api.atlas.vegvesen.no)",
+      "Bash(npx tsc:*)",
+      "Bash(curl -s \"https://ev-database.org/car/1293/Tesla-Model-Y-Long-Range-RWD\" -A \"Mozilla/5.0\")",
+      "Bash(curl -s -L https://ev-database.org/car/1293/Tesla-Model-Y-Long-Range-RWD -H 'User-Agent: Mozilla/5.0 \\(Macintosh; Intel Mac OS X 10_15_7\\) AppleWebKit/537.36 \\(KHTML, like Gecko\\) Chrome/120.0.0.0 Safari/537.36' -H 'Accept: text/html')"
+    ]
+  }
+}
